@@ -4,8 +4,6 @@
 
 ![arkaperry.nvim](assets/screenshot.png)
 
-Created by [@thearkabanerjee](https://github.com/thearkabanerjee).
-
 ## Features
 
 - Pure black background (`#000000`)
@@ -13,8 +11,6 @@ Created by [@thearkabanerjee](https://github.com/thearkabanerjee).
 - Subtle dark window separators
 - Optional matching Lualine statusline
 - Mode colors: blue **NORMAL**, green **INSERT**, light-purple **VISUAL**
-- Unnamed buffers display `editor`
-- MIT licensed
 
 ## Installation
 
@@ -75,7 +71,7 @@ require("arkaperry").setup({ statusline = true })
 ## Palette
 
 | Color | Hex | Use |
-|---|---|---|
+| --- | --- | --- |
 | Cyan | `#45D6FF` | Functions, Normal mode |
 | Green | `#6EFF8A` | Strings, Insert mode |
 | Light purple | `#C792EA` | Keywords, Visual mode |
@@ -88,4 +84,4 @@ require("arkaperry").setup({ statusline = true })
 
 ## License
 
-MIT. See [LICENSE](LICENSE).
+MIT License.
