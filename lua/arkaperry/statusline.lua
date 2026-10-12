@@ -119,16 +119,7 @@ return {
 		},
 		lualine_x = {},
 		lualine_y = {
-			{
-				"progress",
-				fmt = function(str)
-					if str == "Bot" then
-						return "End"
-					end
-					return str
-				end,
-				color = { fg = blue, bg = black },
-			},
+			{ "progress", color = { fg = blue, bg = black } },
 			{ "location", color = { fg = blue, bg = black } },
 		},
 		lualine_z = {
