@@ -113,7 +113,6 @@ return {
 				path = 1,
 				symbols = {
 					modified = " ●",
-					readonly = " ",
 				},
 				color = { fg = white, bg = black },
 			},
