@@ -9,12 +9,12 @@ local orange = "#FFAD66"
 local pink = "#FF79C6"
 local muted = "#777783"
 local white = "#F4F4F5"
-local cyan = "#15aabf"
+local peach = "#c2255c"
 
 local mode_colors = {
 	n = blue,
-	i = cyan,
-	ic = cyan,
+	i = peach,
+	ic = peach,
 	v = purple,
 	V = purple,
 	["\22"] = purple,
@@ -109,7 +109,7 @@ return {
 				symbols = {
 					modified = " ●",
 					readonly = " ",
-					unnamed = " ☰",
+					unnamed = "☰",
 				},
 				color = { fg = white, bg = black },
 			},
