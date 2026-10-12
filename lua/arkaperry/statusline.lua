@@ -104,23 +104,21 @@ return {
 		},
 		lualine_c = {
 			{
+				"filetype",
+				icon_only = true,
+				color = { fg = blue, bg = black },
+			},
+			{
 				"filename",
 				path = 1,
 				symbols = {
 					modified = " ●",
 					readonly = " ",
-					unnamed = "☰",
 				},
 				color = { fg = white, bg = black },
 			},
 		},
-		lualine_x = {
-			{
-				"filetype",
-				icon_only = true,
-				color = { fg = blue, bg = black },
-			},
-		},
+		lualine_x = {},
 		lualine_y = {
 			{ "progress", color = { fg = blue, bg = black } },
 			{ "location", color = { fg = blue, bg = black } },
