@@ -9,10 +9,12 @@ local orange = "#FFAD66"
 local pink = "#FF79C6"
 local muted = "#777783"
 local white = "#F4F4F5"
+local cyan = "#15aabf"
 
 local mode_colors = {
 	n = blue,
-	i = green,
+	i = cyan,
+	ic = cyan,
 	v = purple,
 	V = purple,
 	["\22"] = purple,
